@@ -1,0 +1,55 @@
+private: System::Void HatchPolygonToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) 
+{
+
+//	SPMathAlgorithm hatchingAlgorithm;
+//	vector<SPMathLine2D> lineList;
+
+//	string line;
+//	int linecnt = 0;
+//	ifstream myfile("C:/Users/DELL/source/repos/CGProjectUsingClr/rectangle_data.txt");
+//	//std::vector<std::string> filecontent;
+
+//	if (myfile.is_open())
+//	{
+//		//MessageBox::Show(Readfile);
+//		while (!myfile.eof())
+//		{
+
+//			getline(myfile, line);
+//			stringstream ss(line);
+//			linecnt = line.size();
+//			double pointarray[4] = {};           // array of points
+//			int cnt = 0;
+//			SPMathPoint2D startPoint;
+//			SPMathPoint2D endPoint;
+
+//			// Use while loop to check the getline() function condition.  
+//			while (std::getline(ss, line, ','))
+//			{
+//				pointarray[cnt] = stod(line);
+//				cnt++;
+//			}
+//			startPoint.SetXCoordinate(pointarray[0]);
+//			startPoint.SetYCoordinate(pointarray[1]);
+//			endPoint.SetXCoordinate(pointarray[2]);
+//			endPoint.SetYCoordinate(pointarray[3]);
+
+//			SPMathLine2D line(startPoint, endPoint);
+//			lineList.push_back(line);
+
+//		}
+//	}
+//	vector<SPMathHatch2D> hatchList = hatchingAlgorithm.Algorithm(lineList);
+//	vector<SPMathLine2D> linelist;
+
+//	SPMathHatch2D newHatch;
+//	for(int i =0; i<hatchList.size();i++)
+//	{
+//		linelist.push_back( SPMathLine2D(newHatch.GetHatch()[i].getHatchLine()));
+
+//		for (int i = 0; i < lineList.size(); i++)
+//		{
+//			SPMathDrawLine(lineList);
+//		}
+//	}
+}
